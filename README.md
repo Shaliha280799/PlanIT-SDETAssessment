@@ -30,7 +30,7 @@ OS- Windows 10
 3.) open command line and run the below  command
 > mvn clean test
 
-4.) reports will be generated in the folder {GIT_REPO}/jupiter-toys/target/surefire-reports/emailable-report.html
+4.) Once the maven build is completed, reports will be generated in the folder {GIT_REPO}/jupiter-toys/target/surefire-reports/emailable-report.html
 
 
 ## 2.) Challenges

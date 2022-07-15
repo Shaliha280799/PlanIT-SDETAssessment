@@ -302,8 +302,8 @@ public class TestCases {
 	}
 
 	@Test(priority = 6)
-	// Validate Field error
-	public void validateFieldErrorMsg() {
+	// Validate mandatory field errors
+	public void validateMandatoryFieldErrorMsg() {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
 		driver.findElement(By.cssSelector(obj.getProperty("landingPage"))).click();
 		Reporter.log("Navigated to shopping page");
@@ -364,12 +364,12 @@ public class TestCases {
 		// Verify error message
 		Assert.assertEquals(expectedFormErrMsg, actualFormErrMsg);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
-		Reporter.log("Field error messages are Displayed successfully");
+		Reporter.log("Mandatory field error messages are Displayed successfully");
 
 	}
 
 	@Test(priority = 7)
-	// Validate Field error
+	// Validate login error
 	public void validateLoginFailure() {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 		driver.findElement(By.linkText(obj.getProperty("login"))).click();

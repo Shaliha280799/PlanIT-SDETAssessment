@@ -3,7 +3,7 @@ This repository is created to upload the assessment as part of PlanIT Interview
 
 ## 1.) 10 Priority test cases for Jupiter website
 
-I have considered that for a website, priority is that any user should be able to add items and check out properly and receive the order number.
+I have considered that for a website, priority is that any user should be able to add items and check out properly and receive the order number. Manual test cases also have been placed in the same folder ( ManualTestcases.xlsx).
 
 ##### Tools used:
 

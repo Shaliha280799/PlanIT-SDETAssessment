@@ -8,10 +8,15 @@ I have considered that for a website, priority is that any user should be able t
 ##### Tools used:
 
 Java - version 11
+
 Maven - version 3.8.6
+
 Selenium- version 4.3
+
 TestNG - version 7.6.1 
+
 Crossbrowser Testing - Chrome & FireFox
+
 OS- Windows 10
 
 ##### Steps: 

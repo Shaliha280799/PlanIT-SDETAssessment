@@ -12,12 +12,19 @@ Maven - version 3.8.6
 Selenium- version 4.3
 TestNG - version 7.6.1 
 Crossbrowser Testing - Chrome & FireFox
+OS- Windows 10
 
 ##### Steps: 
 
-1.) git clone this repository
+1.) Open command prompt ( or terminal) and clone this repository using below command
+> git clone https://github.com/Shaliha280799/PlanIT-SDETAssessment.git
+
 2.) go to jupiter-toys project 
-3.) open command line and run the command "mvn clean test"
+> cd ../jupiter-toys
+
+3.) open command line and run the below  command
+> mvn clean test
+
 4.) reports will be generated in the folder {GIT_REPO}/jupiter-toys/target/surefire-reports/emailable-report.html
 
 

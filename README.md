@@ -32,6 +32,8 @@ OS- Windows 10
 
 I have taken the below challenges and written solution in the language Java ( version 11). Both the challenges can be run as separate java files and I have also written unit test case for one of the challenges.
 
+From the above repo, go to the folder planit-interview-challenges. In src/main/java folder, challenges solution can be found.
+
 Challenge 6:
 Make an API call to https://petstore.swagger.io/v2/pet/findByStatus?status=available and display a count of
 the number of pets in the result

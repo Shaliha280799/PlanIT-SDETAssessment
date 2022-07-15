@@ -20,7 +20,7 @@ OS- Windows 10
 > git clone https://github.com/Shaliha280799/PlanIT-SDETAssessment.git
 
 2.) go to jupiter-toys project 
-> cd ../jupiter-toys
+> cd ./PlanIT-SDETAssessment/jupiter-toys
 
 3.) open command line and run the below  command
 > mvn clean test
